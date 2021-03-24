@@ -1,10 +1,12 @@
 import "./styles.css";
+import { App as UseInput } from "./useInput";
+import { App as UseTabs } from "./useTabs";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <UseInput/>
+      <UseTabs/>
     </div>
   );
 }
