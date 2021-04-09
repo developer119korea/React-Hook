@@ -19,7 +19,7 @@ export const App = () => {
   const sayHello = () => console.log("say Hello");
   const title = useClick(sayHello);
   return (
-    <div className="App">
+    <div>
       <div ref={title}>Hi</div>
     </div>
   );

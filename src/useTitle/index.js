@@ -3,7 +3,7 @@ import ReactDom from "react-dom";
 
 
 const UseTitle = initialTitle => {
-  const [title, setTitle ] = useState(initialTitle);
+  const [title, setTitle] = useState(initialTitle);
   const updateTitle = () => {
     const htmlTitle = document.querySelector("title");
     htmlTitle.innerText = title;
@@ -17,7 +17,7 @@ export const App = () => {
   setTimeout(() => titleUpdater("Home"), 5000);
   return (
     <div className="App">
-      <div>Hi</div> 
+      <div>Hi</div>
     </div>
   );
 };
