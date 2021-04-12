@@ -5,6 +5,7 @@ import { App as UseTitle } from "./useTitle";
 import { App as UseClick } from "./useClick";
 import { App as UsePrevent } from "./usePreventLeave";
 import { App as UseConfirm } from "./useConfirm";
+import { App as UseBeforeLeave } from "./useBeforeLeave";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <UseClick />
       <UsePrevent />
       <UseConfirm />
+      <UseBeforeLeave />
     </div>
   );
 }
