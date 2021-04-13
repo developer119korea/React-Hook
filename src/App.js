@@ -7,18 +7,20 @@ import { App as UsePrevent } from "./usePreventLeave";
 import { App as UseConfirm } from "./useConfirm";
 import { App as UseBeforeLeave } from "./useBeforeLeave";
 import { App as UseFadeIn } from "./useFadeIn";
+import { App as UseNetwork } from "./useNetwork";
 
 export default function App() {
   return (
     <div className="App">
-      {/* <UseInput />
+      <UseInput />
       <UseTabs />
       <UseTitle />
       <UseClick />
       <UsePrevent />
       <UseConfirm />
-      <UseBeforeLeave /> */}
+      <UseBeforeLeave />
       <UseFadeIn />
+      <UseNetwork />
     </div>
   );
 }
