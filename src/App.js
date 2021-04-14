@@ -9,6 +9,7 @@ import { App as UseBeforeLeave } from "./useBeforeLeave";
 import { App as UseFadeIn } from "./useFadeIn";
 import { App as UseNetwork } from "./useNetwork";
 import { App as UseScroll } from "./useScroll";
+import { App as UseFullScreen } from "./useFullScreen";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <UseFadeIn />
       <UseNetwork />
       <UseScroll />
+      <UseFullScreen />
     </div>
   );
 }
